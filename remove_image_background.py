@@ -22,3 +22,5 @@ def remove_background_simple(input_path, output_path):
     # Save the output image
     output_image.save(output_path)
     print(f"Background removed! Saved to: {output_path}")
+
+remove_background_simple('/content/logo1-2.jpg', '/content/ard.png')
